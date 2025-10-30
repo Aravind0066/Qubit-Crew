@@ -1,4 +1,3 @@
-# Qubit-Crew
 # 🌸 Quantum Bloom — Flower Drying Time Predictor
 
 **Quantum Bloom** is a Streamlit-powered dashboard that blends **quantum-inspired machine learning (QSVM)** with floral ecology.  
@@ -170,8 +169,8 @@ streamlit run frontend.py
 
 | Name | Role |
 |------|------|
-| **Aravind M** | Lead Developer, Model Architect |
-| *(add teammates if any)* | Data Augmentation / Frontend / Quantum Integration |
+| **Aravind M** |
+| *(add teammates if any)* |
 
 ---
 
