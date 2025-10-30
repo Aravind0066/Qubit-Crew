@@ -86,8 +86,8 @@ However, real-world data is scarce and nonlinear — hence, we use **augmented d
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/QuantumBloom.git
-cd QuantumBloom
+git clone https://github.com/Aravind0066/Qubit-Crew.git
+cd Qubit-Crew
 ```
 
 ### 2️⃣ Install Dependencies
@@ -109,7 +109,7 @@ scaled_data.csv
 ### 4️⃣ Ensure All Files Are in the Same Folder
 Make sure your project structure looks like this:
 ```
-📂 Streamlit/
+📂 Qubit Crew/
  ┣ 📄 augmented_500.csv
  ┣ 📄 frontend.py
  ┣ 📄 scaler.py
@@ -128,9 +128,7 @@ streamlit run frontend.py
 ## 🌍 Streamlit Cloud Deployment
 
 🎯 **Deployed Live App:**  
-👉 [Try Quantum Bloom on Streamlit!](https://your-streamlit-app-link.streamlit.app)  
-
-*(replace this link with your Streamlit Cloud deployment URL)*
+👉 [Try Quantum Bloom on Streamlit!](https://qubit-crew-qiskit-techfest-2025.streamlit.app/)  
 
 ---
 
@@ -167,10 +165,11 @@ streamlit run frontend.py
 
 ## 👩‍💻 Team Quantum Bloom
 
-| Name | Role |
-|------|------|
+| Name |
+|------|
 | **Aravind M** |
-| *(add teammates if any)* |
+| **S Haripriya** |
+| **Mitrajith K** |
 
 ---
 
@@ -181,11 +180,3 @@ streamlit run frontend.py
 - **scikit-learn** – Scaler & PCA
 - **PennyLane / Qiskit** – Quantum ML experiments
 - **Joblib** – Model serialization
-
----
-
-## 📜 License
-
-MIT License © 2025 **Aravind M**  
-Feel free to fork, modify, and cite this project in your research or hackathon submissions.
-
