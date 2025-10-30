@@ -77,11 +77,14 @@ if st.button("🔮 Predict Drying Time"):
         # Placeholder "prediction"
         drying_time = np.mean(scaled_input) * 10  # Dummy logic for now
 
+        # ✅ Ensure drying time is always positive
+        drying_time = abs(drying_time)
+
         # Classify condition based on mean feature
-        if drying_time < 0:
+        if drying_time < 3:
             condition = "🌵 Dry Environment (Quick Drying)"
             color = "orange"
-        elif 0 <= drying_time <= 5:
+        elif 3 <= drying_time <= 6:
             condition = "🌤️ Moderate (Balanced Moisture)"
             color = "green"
         else:
